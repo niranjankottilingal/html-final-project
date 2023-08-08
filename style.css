@@ -1,0 +1,130 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style header and footer */
+header, footer {
+    background-color: #595555;
+    color: #f3eeee;
+    padding: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    
+    color: #0b0a0a;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+   
+    color: #0d0c0c;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+  
+    color: #181616;
+    padding: 1rem;
+    text-align: center;
+    font-family: fantasy;
+}
+ul{
+    
+    color: #181616;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    background-image: url("screen.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+
+header h1, footer p {
+    font-size: 1.5rem;
+}
+
+/* Style navigation menu */
+nav ul {
+    list-style: none;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: center; /* Center-align the items */
+    padding: 1rem 0;
+}
+
+nav li {
+    margin: 0 1rem; /* Add margin between buttons */
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Style logo */
+.logo {
+    margin-bottom: 1rem;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Style hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 5rem 0;
+    background-color: #f5f5f5;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 2rem;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Rest of your CSS styles... */
